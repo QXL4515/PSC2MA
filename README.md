@@ -1,6 +1,6 @@
 # PSC2MA
 ## Description
-Abstract—Unpredictability and uncertainty about future evolutions of both the system and its environment may easily compromise the
+Unpredictability and uncertainty about future evolutions of both the system and its environment may easily compromise the
 behaviour of the system. The subsequent software failures can have serious consequences. When dealing with open environments, run-time
 monitoring is one of the most promising techniques to detect software failures. Several monitoring approaches have been proposed in the last
 years; however, they suffer from two main limitations. First, they provide limited information to be exploited at run-time for early detecting and
@@ -17,6 +17,6 @@ controllable, and violated.
 The scenario-based notation of PREDIMO is based on the property sequence charts language that facilitates the non trivial and error prone
 task of specifying, correctly and without expertise in temporal logic, temporal properties.
 
-The correctness of the translation process from the properties specification to the monitors is formally proven (see the Appendix). The overall
+The correctness of the translation process from the properties specification to the monitors is formally proven. The overall
 approach is tool supported and a large experimentation with OSGi (Open Service Gateway Initiative) applications demonstrates its feasibility
 and usability.
