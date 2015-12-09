@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: PSC2GS Plug-in
+Bundle-SymbolicName: cn.cstv.wspscm; singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Activator: cn.cstv.wspscm.Activator
+Bundle-Vendor: Yu Jun
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.gef;bundle-version="3.4.0",
+ org.eclipse.ui.views;bundle-version="3.3.0",
+ org.eclipse.core.resources;bundle-version="3.4.0",
+ org.eclipse.ui.console;bundle-version="3.3.0",
+ org.eclipse.ui.ide
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: lib/jcommon-1.0.15.jar,
+ lib/jfreechart-1.0.12-experimental.jar,
+ lib/jfreechart-1.0.12-swt.jar,
+ lib/jfreechart-1.0.12.jar,
+ lib/swtgraphics2d.jar,
+ .
