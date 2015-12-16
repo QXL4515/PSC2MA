@@ -54,8 +54,8 @@ public class PSC2GameStructureAction extends Action implements ISelectionListene
 	public PSC2GameStructureAction(IWorkbenchWindow window) {
 		this.window = window;
 		setId(ID);
-		setText("PSC to GameStructure");
-		setToolTipText("Transfer PSC to GameStructure");
+		setText("PSC to Multi-Valued Automata");
+		setToolTipText("Transfer PSC to Multi-Valued Automata");
 		setImageDescriptor(IImageKeys
 				.getImageDescriptor(IImageKeys.TRANSFERPSCTOGAMESTRUCTURE));
 		window.getSelectionService().addSelectionListener(this);
@@ -274,7 +274,7 @@ public class PSC2GameStructureAction extends Action implements ISelectionListene
 		}
 		
 		long endTime=System.currentTimeMillis(); 
-		System.out.println("Time for transfering PSC to GameStructure is "+( endTime - startTime )+"ms"); 
+		System.out.println("Time for transfering PSC to Multi-Valued Automata is "+( endTime - startTime )+"ms"); 
 	}
 	
 	public void addState2HashMap(HashMap <Integer, String> state, int stateIndex, String stateOfState){

@@ -45,7 +45,7 @@
             class="cn.cstv.wspscm.views.GameStructureView"
             icon="icons/automa.gif"
             id="cn.cstv.wspscm.views.GameStructureView"
-            name="GameStructure"
+            name="Multi-Valued Automata"
             restorable="true">
       </view>
       <view
